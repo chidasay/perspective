@@ -161,7 +161,7 @@ void perspective(char *fileName)
 int main(int argc, char *argv[])
 {
 	if (argc < 2)
-		perspective("image.jpg"); // defaultの画像
+		perspective("image.png"); // defaultの画像
 	else
 		perspective(argv[1]); // 指定された場合
 	return 0;
